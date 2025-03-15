@@ -189,23 +189,23 @@ export const education = [
 export const projects = [
   {
     id: 11,
-    title: "DecisionHub",
-    date: "Jan 2024 - Dec 2023",
+    title: "SignFusion",
+    date: "Nov 2023 - Present",
     description:
-      "A Rule Builder application “Decision Hub” that empowers Business Analysts to create, save, and visualize decision strategies. Provide a no-code rule writing experience and visual representation to test these rules in real-time and observe the calculations at each step.",
+      "SignFusion is an AI-powered Sign Language Translator designed to bridge the communication gap between deaf/mute individuals and others by enabling real-time, two-way translation. The system features text-to-sign conversion using OCR and NLP, along with gesture recognition for sign-to-text translation. Built with a robust tech stack including React.js, Python (Flask/FastAPI), TensorFlow, MediaPipe Hands, and Firebase, SignFusion ensures seamless accessibility and user-friendly interaction. Future enhancements aim to integrate AR/VR for immersive sign language experiences and real-time sign translation in video calls, making communication more inclusive and efficient.",
     image:
-      "https://github.com/rishavchanda/DecisionHub/raw/master/assets/testRule.jpg",
+      "https://blogger.googleusercontent.com/img/a/AVvXsEgqqN42ofw0xQHBFmg7qzEB3G5NSGKLu7aspGvhvIc3oG03BZwvsM9BchaK0dUN02yH5TZGyc6NMFj59EOV-32qrfsVWGLmH_UuYfZPAa6wo7vMgJDoblOUVktgOKplWekA1Q7x9exNlJyFoNreorWStxbM4D9NGI9tA26_viTx85Mlr__6dSOrdapFYmg=w400-h228",
     tags: [
       "React Js",
-      "PostgressSQL",
+      "Three.js",
       "Node Js",
       "Express Js",
-      "Redux",
+      "Machine Learning",
       "React Flow",
     ],
     category: "web app",
-    github: "https://github.com/rishavchanda/DecisionHub",
-    webapp: "https://decisionhub.netlify.app/",
+    github: "https://github.com/Himazing/Sign-Fusion",
+    // webapp: "https://decisionhub.netlify.app/",
   },
   // {
   //   id: 9,
