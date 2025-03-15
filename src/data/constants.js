@@ -177,7 +177,7 @@ export const education = [
   },
   {
     id: 2,
-    img: "http://srdavpupri.org/MyImages/LOGO.png",
+    img: "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhsLO9NMB_AdvGtYTdRp9pU9JpouAzmLOw42I-1i-IzuqOhMGjv42fWiXKGld7E6FpuOL5E35uCTYBI2rMz1lO1cQ04_GuTFX7a0ZV78v1Erx7W-5GKytV6zhG6-Aedz5vMu0sSjLJ1Y7iA8F1AnRTx5nmhb5VgletG-kTA1NhPWPsqXqZaWtLyKb8wK3w/s1600/logo.jpeg",
     school: "DAV Public School, Pupri",
     date: "Apr 2017 - Apr 2019",
     grade: "87.63%",
