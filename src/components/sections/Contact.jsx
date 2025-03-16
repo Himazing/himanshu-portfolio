@@ -128,25 +128,36 @@ const ContactButton = styled.input`
 const Contact = () => {
   const form = useRef();
 
-  const handleSubmit = (e) => {
-    e.preventDefault();
-    emailjs
-      .sendForm(
-        "service_tox7kqs",
-        "template_nv7k7mj",
-        form.current,
-        "SybVGsYS52j2TfLbi"
-      )
-      .then(
-        (result) => {
-          alert("Message Sent");
-          form.current.resut();
-        },
-        (error) => {
-          alert(error);
-        }
-      );
-  };
+ const handleSubmit = (e) => {
+  e.preventDefault();
+
+  if (!form.current) {
+    alert("Form reference is not available.");
+    return;
+  }
+
+  emailjs
+    .sendForm(
+      "service_vuxmcie", 
+      "template_teo2mrr", 
+      form.current,
+      {
+        publicKey: "xmLcpJiKCPWqsUD7S",
+      }
+    )
+    .then(
+      (result) => {
+        console.log("Email sent successfully:", result.text);
+        alert("Message Sent Successfully!");
+        form.current.reset();
+      },
+      (error) => {
+        console.error("Email sending failed:", error);
+        alert("Failed to send the message. Please check your EmailJS setup.");
+      }
+    );
+};
+
 
   return (
     <Container>
