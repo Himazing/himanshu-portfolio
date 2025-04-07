@@ -12,7 +12,7 @@ export const Bio = {
   resume:
     "https://drive.google.com/file/d/1tNk7UIF5btwzPcsLDW0Q-pTkMLH8mZvd/view?usp=drive_link",
   linkedin: "https://www.linkedin.com/in/himazing/",
-  twitter: "https://twitter.com/himazings01", //update
+  twitter: "https://twitter.com/Himazings01", //update
 };
 
 export const skills = [
