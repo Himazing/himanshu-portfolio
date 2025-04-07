@@ -8,7 +8,7 @@ export const Bio = {
     "I am a motivated and versatile individual, always eager to take on new challenges. With a passion for learning I am dedicated to delivering high-quality results. With a positive attitude and a growth mindset, I am ready to make a meaningful contribution and achieve great things.",
   github: "https://github.com/Himazing",
   resume:
-    "https://drive.google.com/file/d/1RYrkYAYf-nFjoi06XF7_q108uA8OD7sT/view?usp=drive_link",
+    "https://drive.google.com/file/d/1tNk7UIF5btwzPcsLDW0Q-pTkMLH8mZvd/view?usp=drive_link",
   linkedin: "https://www.linkedin.com/in/himazing/",
   twitter: "https://twitter.com/himazings01", //update
 };
