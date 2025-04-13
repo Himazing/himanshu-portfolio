@@ -59,9 +59,12 @@ Contributions are welcome! If you'd like to contribute to My Portfolio, please f
 4. Push to the branch: `git push origin my-feature`
 5. Open a pull request.
 
-## License
-This project is licensed under the [MIT License](LICENSE).
-=======
-# himanshu-portfolio
-Welcome to my portfolio! This project showcases my skills, projects, and experiences as a web developer
->>>>>>> 33042af1e74ecabec139d177d1685c5f0bb858fc
+
+## 📬 Contact
+
+Feel free to reach out to me through any of the following channels:
+
+- **Email**: [jhahim11@gmail.com](mailto:jhahim11@gmail.com)
+- **LinkedIn**: [linkedin.com/in/himazing](https://www.linkedin.com/in/himazing/)
+
+### 🔥 Made with ❤️ by **Himanshu Kumar**
