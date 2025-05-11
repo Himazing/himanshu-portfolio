@@ -188,5 +188,27 @@ export const projects = [
     github: "https://github.com/Himazing/Sign-Fusion",
    
   },
+   {
+    id: 12,
+    title: "Ai InterviewPrepwise",
+    date: "March 2025 - April 2025",
+    description:
+      "Ready to master your job interviews? Join us as we build a real-time AI-driven mock interview platform with Next.js and Vapi AI, offering personalized prep sessions just for you.",
+    image:
+      "https://blogger.googleusercontent.com/img/a/AVvXsEgqqN42ofw0xQHBFmg7qzEB3G5NSGKLu7aspGvhvIc3oG03BZwvsM9BchaK0dUN02yH5TZGyc6NMFj59EOV-32qrfsVWGLmH_UuYfZPAa6wo7vMgJDoblOUVktgOKplWekA1Q7x9exNlJyFoNreorWStxbM4D9NGI9tA26_viTx85Mlr__6dSOrdapFYmg=w400-h228",
+    tags: [
+      "firebase",
+      "vapi ai",
+      "firebase",
+      "nextjs",
+      "Node Js",
+      "Machine Learning",
+      "React Flow",
+    ],
+    category: "web app",
+    github: "https://github.com/Himazing/Ai_Interview_Prepwise",
+    Website: "https://prepwisemns.vercel.app/",
+   
+  },
  
 ];
