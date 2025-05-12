@@ -188,14 +188,15 @@ export const projects = [
     github: "https://github.com/Himazing/Sign-Fusion",
    
   },
-   {
+
+  {
     id: 12,
     title: "Ai InterviewPrepwise",
     date: "March 2025 - April 2025",
     description:
       "Ready to master your job interviews? Join us as we build a real-time AI-driven mock interview platform with Next.js and Vapi AI, offering personalized prep sessions just for you.",
     image:
-      "https://blogger.googleusercontent.com/img/a/AVvXsEgqqN42ofw0xQHBFmg7qzEB3G5NSGKLu7aspGvhvIc3oG03BZwvsM9BchaK0dUN02yH5TZGyc6NMFj59EOV-32qrfsVWGLmH_UuYfZPAa6wo7vMgJDoblOUVktgOKplWekA1Q7x9exNlJyFoNreorWStxbM4D9NGI9tA26_viTx85Mlr__6dSOrdapFYmg=w400-h228",
+      "https://blogger.googleusercontent.com/img/a/AVvXsEgCYM3rPUqnbr0MjY5eWTw_pIZwY0Z-Q1E4GO-It8cqdsRuiQgYkQpLAZweMA4mzEzEdFuZGV7VTz71I2Ow9bedn863gNBuMAVzmUJoYQSXuJMM6xNdQNB6_0rw9S3l3HWHpBN75GqkoNZMg3yj7_yjBNUfNfKWKTU9Q_GNwYBD86xNzigBUSIEJQsft1I",
     tags: [
       "firebase",
       "vapi ai",
@@ -212,3 +213,4 @@ export const projects = [
   },
  
 ];
+
