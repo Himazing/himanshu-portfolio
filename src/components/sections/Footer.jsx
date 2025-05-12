@@ -96,10 +96,10 @@ const Footer = () => {
           <NavLink href="#Projects">Projects</NavLink>
           <NavLink href="#Education">Education</NavLink>
         </Nav>
-{/*         <SocialMediaIcons>
-          <SocialMediaIcon href={Bio.facebook} target="display">
-            <FacebookIcon /> */}
-          </SocialMediaIcon>
+        <SocialMediaIcons>
+          {/* <SocialMediaIcon href={Bio.facebook} target="display">
+            <FacebookIcon /> 
+          </SocialMediaIcon>*/}
           <SocialMediaIcon href={Bio.twitter} target="display">
             <TwitterIcon />
           </SocialMediaIcon>
