@@ -6,7 +6,7 @@ export const Bio = {
     "Developer",
   ],
   description:
-    "Passionate about problem-solving, innovation & learning new technologies. Actively participated in hackathons & technical events securing multiple awards. Demonstrated expertise in developing innovative solutions through hands-on projects and real-world applications.",
+    "Passionate about problem-solving, innovation & exploring new technologies. Actively participated in hackathons & technical events securing multiple awards. Demonstrated expertise in developing innovative solutions through hands-on projects and real-world applications.",
   //   "I am a motivated and versatile individual, always eager to take on new challenges. With a passion for learning I am dedicated to delivering high-quality results. With a positive attitude and a growth mindset, I am ready to make a meaningful contribution and achieve great things. ",
   github: "https://github.com/Himazing",
   resume:
@@ -46,7 +46,7 @@ export const skills = [
       {
         name: "Angular Js",
         image:
-          "https://en.m.wikipedia.org/wiki/File:AngularJS_logo.svg",
+          "https://angular.io/assets/images/logos/angular/angular.svg",
       },
     ],
   },
