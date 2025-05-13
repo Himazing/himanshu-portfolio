@@ -3,12 +3,13 @@ Welcome to my portfolio! This project showcases my skills, projects, and experie
 
 ### Weblink: [Live Website](https://himanshu-portfolio-tau.vercel.app/)
 ## Preview:
-<img width="700px" height="400px" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEh10YQsNiif2Ib0sxGIlvkQoGovcFP_34ucNEhCy0497IoLsgGf7A__hA437cNnAmIhYIGKiZQ1P-palIUA8u9az-oyxfKHxsvN6rt0MVvn2rrnxMOIsvJGiwQOuW-A3OA3UZa43SRoT67BxeGm8u2acCRO0FfjN3Z4bb_Yv-u4R64DLpnf6odBA7ekY78/s320/Screenshot%202025-02-23%20234655.png"/>
-<img width="700px" height="400px" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhdgX6A1fhDvawf_s0brqfWMy-Myy0vYN-oCNI3am9Wq73slOUZaEdvlYzoYrNMiKa2qeHjXSokSaaGX_FVO5jtWBkQ7XVUy2hF1ipi5WRFonfWRjkTkIx4orVHOORDPLSiACNCgZ99IzI2GHCj7RVHNO6q291WyIiRQsUOCYiphoPaGrGuMbpaE1xO6YM/s320/Screenshot%202025-02-23%20234709.png"/>
-<img width="700px" height="400px" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgt5zKWdlTkODQCu6MH9gBrfqEr87Nk2DiQ1vhi932GOVIVJp7zQEVaLlxJ6jf0bOyKpmZpiVlUTX5nPj5KLkEfrVSRQQFmHQYzb1PkNESYrHdIK-IfnJghZFERBCC90ZdmI6-ZB1TRKshjHUk7TSitHkmxVs63_ejYW8dZEcl8agdfIIqSnScm8c-hB3I/s320/Screenshot%202025-02-23%20234720.png"/>
-<img width="700px" height="400px" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjTZA5j-fL2PNdOROWpzEypGdc36FlL49WphgftddZTYNvArmrhBEk1JVx9t2KbUSLLqHqn430NPtqH8OVbzems91LaOwr_tZhTniiOisGSI-pBeYDxVCIRlR9vvrmfcfXVbmK-BoHAAAWJHdnMQVhADQDD8-VOaUUvwe9V9lFc4f_BcnG-GJ7wvJNRFFY/s320/Screenshot%202025-02-23%20234732.png"/>
-<img width="700px" height="400px" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiZFj5KLvEyJmJnklHhKUQ1EeFSpl0W0Dp2AEJ-a3_XCZ6AkW6ExMbPuH5gbBvOBqeGIJvxgZPLoYCVojugB5EBXT1hv0wllGjDZhNmrLpEdRBUuIBqtjQND-MBcrKtfYFRwviy-vQUMRh1cikWNm-WuUxnlYRnGKf4wULC7p5LAKL5zgaxzzRhkwTNR9k/s320/Screenshot%202025-02-23%20234743.png"/>
-<img width="700px" height="400px" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgsh2kD3Sf-DdD6WHsoak0N7MayxkGR2slggBKI7fmH46EZ9m-9myiwB871jP_e7ZHqIvZffrmMtFHpNUux0dqesIdtLHawwfP_Mb4E3PAAp5dviQZzLeDZWexhvYFRQItC52M5zntAnUFr1vin4YtpAaq_jf_3oDyAl39LJDOj6cs8FkoLUrmAiF6n6sw/s320/Screenshot%202025-02-23%20234754.png"/>
+<img  src="https://blogger.googleusercontent.com/img/a/AVvXsEhtBxhWcXzaeGgXm9NSZhkAroOPWW3Mkwl78yYPj0bcG-72h8tHUgU7Fcm9DWc_RYIIfuITsF_Cm0W3_c7ACoGu32NKibslnW2TQjBZgc5AFs3OLFm06OLKOOroi5COUjA5-HGlfhTyduNtGb-EF_RtBG5wyRFirK2wWhh2DLCRlnFqOjrkrpjNu49rIKM"/>
+<img  src="https://blogger.googleusercontent.com/img/a/AVvXsEjyKhxie9wR6vj4tfbUuPe-tMyVsyLiGDIs-s-fDbLFXA_KjSGUn6B9aYHytCXUgsuCmTqPF5ncfaytOmVulzWKh0LUraE9beBT0L9jvXJNaET0SMjLhnbxjghDVsPoyUp1aTxMA1g4xNgol9DQz9kQB96pss-YVBVKmsYzG4n3WUlFO0IaOhqPIx9yOlQ"/>
+<img src="https://blogger.googleusercontent.com/img/a/AVvXsEhU1Sc_QYO6DUgM3ejiRbzFLYEQIE1nVw_cXr40RnpJl0ncXC10GFtPN1bH-3OynkJgmp7oO_v3dbvGPB7NuZC385tny4btQhZ5PTo_mDUX7y6frD7-IAIE7Oqvv_NcO9aLWX6zrywr153pCOWxD1-YPp7gsUk7DfeAleyRhSwGPXIyro6vpIzWC_N4IiM"/>
+<img src="https://blogger.googleusercontent.com/img/a/AVvXsEhmyBl0SXBoqBTMPJybmB-h3T3HKHSGN3o6o3RIuAI1kfYx4GCo4sw_IJZYUpluoe6LxACn4w42aQ3aWZFW3hahmAZ7JxoUwIZfNlyLGtbzOasiK4MEVFWATrtNTII5p7g8xJrt8N2k5obLF4R5Lrh87_9uEEdj6-2yQqWHta7EAk0TED6ZoHGTJyLX9pw"/>
+<img src="https://blogger.googleusercontent.com/img/a/AVvXsEhRcLfiugAG8qp7n921rDwO0xrr2EuWoenv50MRwTLUy0iwVoxWpqEtmjQJopn6BH4z4Q45UKiMQzq8UQBlJ3aXLKCguEy17uk09IpuOsKRDl86lj-h7Fr_GuP-c4Xh7rjjKx--Zw9NwhJJM6i2MZrwGv54PKTg-qLpUWnIDLZBTgjQRGknwEfVzbqbF6c"/>
+<img src="https://blogger.googleusercontent.com/img/a/AVvXsEh8c_PieCqshWG8glpHNFpon8dUgTvYglp5xS8JeOtTbPGF0XqlvUiKuTwI2ml67f4k-k8KRUnk9vDdHPSkvAyaRx3Z-zxeO7g76Mc5SYLTQ5DWAL_zmAylUTwLzupO6w2OpH-TWGhwquTHD29M0VEm5Yg2wpHJ5gDtd-cwGIz1IaYV_RHcPYJNojh-ZyE"/>
+<img src="https://blogger.googleusercontent.com/img/a/AVvXsEimpWgNXNX9r1UlpB8jwavJlI-7gyANDaY25YugtXKQ-AkCkJYrasVKSa-4yOPcAjLoyHO7wdN908mEiZWOnrh9fogudqUZDadcq0-F03SiFYPv3QVVc4XqjsnS2jUSEK7WKLlsy7tPWTEm6EyU4qLG65fGI5UK2h58ibsiMkZxnEfEG8Ut-I-l4eb0XjE"/>
 
 
 ## Table of Contents
