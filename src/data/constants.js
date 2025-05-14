@@ -175,7 +175,7 @@ export const projects = [
     description:
       "SignFusion is an AI-powered Sign Language Translator designed to bridge the communication gap between deaf/mute individuals and others by enabling real-time, two-way translation. The system features text-to-sign conversion using OCR and NLP, along with gesture recognition for sign-to-text translation. Built with a robust tech stack including React.js, Python (Flask/FastAPI), TensorFlow, MediaPipe Hands, and Firebase, SignFusion ensures seamless accessibility and user-friendly interaction. Future enhancements aim to integrate AR/VR for immersive sign language experiences and real-time sign translation in video calls, making communication more inclusive and efficient.",
     image:
-      "https://blogger.googleusercontent.com/img/a/AVvXsEgqqN42ofw0xQHBFmg7qzEB3G5NSGKLu7aspGvhvIc3oG03BZwvsM9BchaK0dUN02yH5TZGyc6NMFj59EOV-32qrfsVWGLmH_UuYfZPAa6wo7vMgJDoblOUVktgOKplWekA1Q7x9exNlJyFoNreorWStxbM4D9NGI9tA26_viTx85Mlr__6dSOrdapFYmg=w400-h228",
+      "https://blogger.googleusercontent.com/img/a/AVvXsEiQs-UvN-ZoxSh9jQpK8OVdROit2MddhGdwJsRXPzMske-ChGwptnCFA8_LRHO6UQ2OTQ3xdAAJxmhwCnBx6wwh7xMzkz_a76-ioSNPK97N9XayhFiRG_G7owtrSz8fEk-KKMcQoSrf3WZbbJrPhuyTFw_UQhrjHzAxuoC2pz39U-MDcq0lcWn2wQ5hd3M",
     tags: [
       "React Js",
       "Three.js",
