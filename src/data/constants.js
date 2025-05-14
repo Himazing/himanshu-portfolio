@@ -196,7 +196,7 @@ export const projects = [
     description:
       "Ready to master your job interviews? Join us as we build a real-time AI-driven mock interview platform with Next.js and Vapi AI, offering personalized prep sessions just for you.",
     image:
-      "https://blogger.googleusercontent.com/img/a/AVvXsEi-DEUswcwhZa8FVms98TP5zhmqitDoF9WsUweUpwgbCEnrRhqD03UH7Iu0RMhEP9BiRrlV5K--gajuHyunlaY_-I0h14YdC8CmHuUJzxeh4vOAWfhc6h5Bv7NjRbVuNpdehul9dwoXi9sBUx316U113VcYfd_jrItuRmFKSl5sa8qteDfIzpZG3Fl1x24",
+      "https://blogger.googleusercontent.com/img/a/AVvXsEjq7GmyHawbNb8a1ppOx2yr68t1QdBh7Oe0keR-OY0YzCOHFtoBc6_8zTzUga-U06VAIb3BmFcEg7hn_FOGC-D_fmv17F-QxSZD4d7M6v4afvxNMirPlNDXaAp8q_sKrIwVLvdvEAwEJ6jsp9hv298p87dKv_rAmvDwvRQhCY4n7fWRvTtc2AfsxiAEwqo",
     tags: [
       "firebase",
       "vapi ai",
