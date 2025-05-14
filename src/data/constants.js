@@ -169,7 +169,7 @@ export const education = [
 
 export const projects = [
   {
-    id: 11,
+    id: 1,
     title: "SignFusion",
     date: "Nov 2023 - Present",
     description:
@@ -185,12 +185,14 @@ export const projects = [
       "React Flow",
     ],
     category: "web app",
-    github: "https://github.com/Himazing/Sign-Fusion",
+    github: "https://github.com/Himazing/SignFusion",
+    webapp: "https://signfusion.vercel.app",
+
    
   },
 
   {
-    id: 12,
+    id: 2,
     title: "Ai InterviewPrepwise",
     date: "March 2025 - April 2025",
     description:
@@ -208,9 +210,8 @@ export const projects = [
     ],
     category: "web app",
     github: "https://github.com/Himazing/Ai_Interview_Prepwise",
-    Website: "https://prepwisemns.vercel.app/",
+    webapp: "https://prepwisemns.vercel.app",
    
   },
  
 ];
-
