@@ -138,8 +138,8 @@ const Contact = () => {
 
   emailjs
     .sendForm(
-      "service_vuxmcie", 
-      "template_teo2mrr", 
+      "service_va4n5cg", 
+      "template_fasg60b", 
       form.current,
       {
         publicKey: "xmLcpJiKCPWqsUD7S",
@@ -157,7 +157,6 @@ const Contact = () => {
       }
     );
 };
-
 
   return (
     <Container>
