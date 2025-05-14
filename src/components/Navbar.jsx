@@ -73,6 +73,7 @@ const ButtonContainer = styled.div`
   justify-content: end;
   align-items: center;
   padding: 0 6px;
+  gap: 16px;
   @media screen and (max-width: 768px) {
     display: none;
   }
@@ -94,6 +95,26 @@ const GithubButton = styled.a`
   &:hover {
     background: ${({ theme }) => theme.primary};
     color: ${({ theme }) => theme.text_primary};
+  }
+`;
+
+const LinkedInButton = styled.a`
+  border: 1px solid ${({ theme }) => theme.primary};
+  background-color: ${({ theme }) => theme.primary};
+  color: ${({ theme }) => theme.text_primary};
+  justify-content: center;
+  display: flex;
+  align-items: center;
+  border-radius: 20px;
+  cursor: pointer;
+  padding: 10px 20px;
+  font-size: 16px;
+  font-weight: 500;
+  transition: all 0.6s ease-in-out;
+  text-decoration: none;
+  &:hover {
+    background: transparent;
+    color: ${({ theme }) => theme.primary};
   }
 `;
 
@@ -130,6 +151,14 @@ const MobileMenu = styled.ul`
   box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.2);
   opacity: ${({ isOpen }) => (isOpen ? "100%" : "0")};
   z-index: ${({ isOpen }) => (isOpen ? "1000" : "-1000")};
+`;
+
+const MobileButtonContainer = styled.div`
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 16px;
+  width: 100%;
 `;
 
 const Navbar = () => {
@@ -173,16 +202,28 @@ const Navbar = () => {
             <NavLink onClick={() => setIsOpen(!isOpen)} href="#Education">
               Education
             </NavLink>
-            <GithubButton
-              href={Bio.github}
-              target="_Blank"
-              style={{
-                background: theme.primary,
-                color: theme.text_primary,
-              }}
-            >
-              Github Profile
-            </GithubButton>
+            <MobileButtonContainer>
+              <GithubButton
+                href={Bio.github}
+                target="_Blank"
+                style={{
+                  background: theme.primary,
+                  color: theme.text_primary,
+                }}
+              >
+                Github Profile
+              </GithubButton>
+              <LinkedInButton
+                href={Bio.linkedin}
+                target="_Blank"
+                style={{
+                  background: "transparent",
+                  color: theme.primary,
+                }}
+              >
+                LinkedIn
+              </LinkedInButton>
+            </MobileButtonContainer>
           </MobileMenu>
         )}
 
@@ -190,6 +231,9 @@ const Navbar = () => {
           <GithubButton href={Bio.github} target="_Blank">
             Github Profile
           </GithubButton>
+          <LinkedInButton href={Bio.linkedin} target="_Blank">
+            LinkedIn
+          </LinkedInButton>
         </ButtonContainer>
       </NavbarContainer>
     </Nav>
