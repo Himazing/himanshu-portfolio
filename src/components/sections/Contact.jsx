@@ -1,4 +1,4 @@
-import React, { useRef } from "react";
+import React, { useRef, useState } from "react";
 import styled from "styled-components";
 import emailjs from "@emailjs/browser";
 import EarthCanvas from "../canvas/Earth";
@@ -51,6 +51,7 @@ const Desc = styled.div`
     font-size: 16px;
   }
 `;
+
 const ContactForm = styled.form`
   width: 95%;
   max-width: 600px;
@@ -64,12 +65,14 @@ const ContactForm = styled.form`
   margin-top: 28px;
   gap: 12px;
 `;
+
 const ContactTitle = styled.div`
   font-size: 28px;
   margin-bottom: 6px;
   font-weight: 600;
   color: ${({ theme }) => theme.text_primary};
 `;
+
 const ContactInput = styled.input`
   flex: 1;
   background-color: transparent;
@@ -83,6 +86,7 @@ const ContactInput = styled.input`
     border: 1px solid ${({ theme }) => theme.primary};
   }
 `;
+
 const ContactInputMessage = styled.textarea`
   flex: 1;
   background-color: transparent;
@@ -96,6 +100,7 @@ const ContactInputMessage = styled.textarea`
     border: 1px solid ${({ theme }) => theme.primary};
   }
 `;
+
 const ContactButton = styled.input`
   width: 100%;
   text-decoration: none;
@@ -123,40 +128,95 @@ const ContactButton = styled.input`
   color: ${({ theme }) => theme.text_primary};
   font-size: 18px;
   font-weight: 600;
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
+  &:hover {
+    transform: scale(1.02);
+  }
+`;
+
+const ErrorMessage = styled.div`
+  color: #ff3333;
+  font-size: 14px;
+  margin-top: -8px;
 `;
 
 const Contact = () => {
-  const form = useRef();
+  const formRef = useRef();
+  const [formData, setFormData] = useState({
+    from_name: "",
+    from_email: "",
+    subject: "",
+    message: ""
+  });
+  const [errors, setErrors] = useState({});
+  const [isSubmitting, setIsSubmitting] = useState(false);
 
- const handleSubmit = (e) => {
-  e.preventDefault();
+  const handleChange = (e) => {
+    const { name, value } = e.target;
+    setFormData(prev => ({
+      ...prev,
+      [name]: value
+    }));
+  };
 
-  if (!form.current) {
-    alert("Form reference is not available.");
-    return;
-  }
+  const validateForm = () => {
+    const newErrors = {};
+    if (!formData.from_name.trim()) newErrors.from_name = "Name is required";
+    if (!formData.from_email.trim()) {
+      newErrors.from_email = "Email is required";
+    } else if (!/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(formData.from_email)) {
+      newErrors.from_email = "Please enter a valid email";
+    }
+    if (!formData.subject.trim()) newErrors.subject = "Subject is required";
+    if (!formData.message.trim()) newErrors.message = "Message is required";
+    
+    setErrors(newErrors);
+    return Object.keys(newErrors).length === 0;
+  };
 
-  emailjs
-    .sendForm(
-      "service_va4n5cg", 
-      "template_fasg60b", 
-      form.current,
-      {
-        publicKey: "xmLcpJiKCPWqsUD7S",
-      }
-    )
-    .then(
-      (result) => {
-        console.log("Email sent successfully:", result.text);
-        alert("Message Sent Successfully!");
-        form.current.reset();
-      },
-      (error) => {
-        console.error("Email sending failed:", error);
-        alert("Failed to send the message. Please check your EmailJS setup.");
-      }
-    );
-};
+  const handleSubmit = (e) => {
+    e.preventDefault();
+    
+    if (!validateForm()) return;
+    
+    if (!formRef.current) {
+      console.error("Form reference is not available");
+      return;
+    }
+
+    setIsSubmitting(true);
+
+    emailjs
+      .sendForm(
+        "service_va4n5cg",
+        "template_fasg60b",
+        formRef.current,
+        {
+          publicKey: "xmLcpJiKCPWqsUD7S",
+        }
+      )
+      .then(
+        (result) => {
+          console.log("Email sent successfully:", result.text);
+          alert("Message Sent Successfully!");
+          setFormData({
+            from_name: "",
+            from_email: "",
+            subject: "",
+            message: ""
+          });
+          setErrors({});
+        },
+        (error) => {
+          console.error("Email sending failed:", error);
+          alert("Failed to send the message. Please try again later.");
+        }
+      )
+      .finally(() => {
+        setIsSubmitting(false);
+      });
+  };
 
   return (
     <Container>
@@ -166,13 +226,47 @@ const Contact = () => {
         <Desc>
           Feel free to reach out to me for any questions or opportunities!
         </Desc>
-        <ContactForm onSubmit={handleSubmit}>
+        <ContactForm ref={formRef} onSubmit={handleSubmit}>
           <ContactTitle>Email Me 🚀</ContactTitle>
-          <ContactInput placeholder="Your Email" name="from_email" />
-          <ContactInput placeholder="Your Name" name="from_name" />
-          <ContactInput placeholder="Subject" name="subject" />
-          <ContactInputMessage placeholder="Message" name="message" rows={4} />
-          <ContactButton type="submit" value="Send" />
+          
+          <ContactInput 
+            placeholder="Your Name" 
+            name="from_name" 
+            value={formData.from_name}
+            onChange={handleChange}
+          />
+          {errors.from_name && <ErrorMessage>{errors.from_name}</ErrorMessage>}
+          
+          <ContactInput 
+            placeholder="Your Email" 
+            name="from_email" 
+            value={formData.from_email}
+            onChange={handleChange}
+          />
+          {errors.from_email && <ErrorMessage>{errors.from_email}</ErrorMessage>}
+          
+          <ContactInput 
+            placeholder="Subject" 
+            name="subject" 
+            value={formData.subject}
+            onChange={handleChange}
+          />
+          {errors.subject && <ErrorMessage>{errors.subject}</ErrorMessage>}
+          
+          <ContactInputMessage 
+            placeholder="Message" 
+            name="message" 
+            rows={4} 
+            value={formData.message}
+            onChange={handleChange}
+          />
+          {errors.message && <ErrorMessage>{errors.message}</ErrorMessage>}
+          
+          <ContactButton 
+            type="submit" 
+            value={isSubmitting ? "Sending..." : "Send"} 
+            disabled={isSubmitting}
+          />
         </ContactForm>
       </Wrapper>
     </Container>
