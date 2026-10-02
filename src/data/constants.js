@@ -137,7 +137,7 @@ export const experiences = [
        "IAM",
        "SQL",
        "Python","ETL & Data Processing",
-       "Data Pipelines"
+       "Data Pipelines",
     ],
   },
   {
