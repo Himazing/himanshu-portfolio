@@ -119,6 +119,29 @@ export const skills = [
 export const experiences = [
   {
     id: 0,
+    img: "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhgHvDI_8neZxKI7uIoRU9fzrT7NN2xcjPPqM1aGllDnK4ZYAxj_jF5pldGdaeHlDBrWvEvDDP2_3BCo6mRisIDMwfmSh7dqq_7pVTl_8Dj4YEUOPdwzvB6cGvN_v4sn2wS_uv-T-ji7s5Dvgtiv1Gxb_S6pXCO2PiMFH4kaOqtWCXw1pyLTJ-uzTUhOWU/s320/accenture.png",
+    role: "Software Engineer",
+    company: "Accenture",
+    date: "April 2026 - Present",
+    desc: "Joined Accenture as an Advanced App Engineering Associate in the Software Engineering job family. Completed multiple structured training programs, including Primer and stream-specific training in Full Stack Cloud Data Engineering with a focus on Google Cloud Platform (GCP). Currently working as a Full Stack Cloud Data Engineer, applying cloud, data engineering, and software development skills to build and work with scalable data solutions.",
+     skills: [
+       "Google Cloud Platform (GCP)",
+       "Cloud Data Engineering",
+       "BigQuery",
+       "Dataflow",
+       "Pub/Sub",
+       "Cloud Storage",
+       "Cloud Functions",
+       "Dataproc",
+       "Cloud Run",
+       "IAM",
+       "SQL",
+       "Python","ETL & Data Processing",
+       "Data Pipelines"
+    ],
+  },
+  {
+    id: 1,
     img: "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgcvD33ScVN4SawE-gKboNTMju-dADxcGbpUw3-4j174yxHtRuUF9uucBcwxEXz-yzUgtn8mrt6gWnqx8VjwBp6Pqr8es944xn_L7pfho80SidV8Xw2r7Cns3m6J8mhAbrHgKw4hRZnf1S2Rcag0uAZDCOlW89lHxKpQdKXVanuVuVoaxtb86pBQn3s3iM/s1600/chegg.jpeg",
     role: "Subject Matter Expert",
     company: "Chegg India",
