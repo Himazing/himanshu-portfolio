@@ -1,13 +1,14 @@
 export const Bio = {
   name: "Himanshu Kumar",
   roles: [
+    "Software Engineer",
     "Full Stack Developer",
     "Programmer",
+    "Data Enginner"
     "Developer",
   ],
   description:
     "Passionate about problem-solving, innovation & exploring new technologies. Actively participated in hackathons & technical events securing multiple awards. Demonstrated expertise in developing innovative solutions through hands-on projects and real-world applications.",
-  //   "I am a motivated and versatile individual, always eager to take on new challenges. With a passion for learning I am dedicated to delivering high-quality results. With a positive attitude and a growth mindset, I am ready to make a meaningful contribution and achieve great things. ",
   github: "https://github.com/Himazing",
   resume:
     "https://drive.google.com/file/d/1tNk7UIF5btwzPcsLDW0Q-pTkMLH8mZvd/view?usp=drive_link",
@@ -121,7 +122,7 @@ export const experiences = [
     img: "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgcvD33ScVN4SawE-gKboNTMju-dADxcGbpUw3-4j174yxHtRuUF9uucBcwxEXz-yzUgtn8mrt6gWnqx8VjwBp6Pqr8es944xn_L7pfho80SidV8Xw2r7Cns3m6J8mhAbrHgKw4hRZnf1S2Rcag0uAZDCOlW89lHxKpQdKXVanuVuVoaxtb86pBQn3s3iM/s1600/chegg.jpeg",
     role: "Subject Matter Expert",
     company: "Chegg India",
-    date: "April 2023 - Present",
+    date: "April 2023 - Mar 2026",
     desc: "I solve Questions posted by International students on Computer Science",
     skills: [
       "JAVA",
@@ -142,10 +143,10 @@ export const education = [
     id: 0,
     img: "https://media.collegedekho.com/media/img/institute/logo/cgc-logo_2.png?width=48",
     school: "Chandigarh Engineering College, Landran ",
-    date: "August 2022 - Present",
-    grade: "7.61 CGPA",
-    desc: "I am currently pursuing a Bachelor's degree in Computer Science and Engineering at Chandigarh Engineering College, Landran. I have completed 5 semesters and have a CGPA of 7.6. I have taken courses in Data Structures, Algorithms, Object-Oriented Programming, Database Management Systems, Operating Systems and Computer Networks among others.",
-    degree: "Bachelor of Technology - BTech, Computer Science and Engineering",
+    date: "August 2022 - May 2026",
+    grade: "8.08 CGPA",
+    desc: "I Completed my Bachelor’s degree in Computer Science Engineering from Chandigarh Engineering College, Landran, with a CGPA of 8.08. Built a strong foundation in Data Structures and Algorithms, Object-Oriented Programming, Database Management Systems, Operating Systems, Computer Networks, and other core areas of Computer Science.",
+    degree: "Bachelor of Technology - BTech, Computer Science Engineering",
   },
   {
     id: 1,
@@ -186,7 +187,7 @@ export const projects = [
     ],
     category: "web app",
     github: "https://github.com/Himazing/SignFusion",
-    webapp: "https://signfusion.vercel.app",
+    webapp: "https://finger-speak-ai-listen.vercel.app",
 
    
   },
